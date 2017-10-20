@@ -1,0 +1,126 @@
+
+
+END USER LICENSE AGREEMENT
+
+
+READ THIS BEFORE CLICKING “I ACCEPT” 
+
+
+THIS AGREEMENT IS A CONTRACT
+
+ 
+THIS END USER LICENSE AGREEMENT (THE “AGREEMENT”) IS A LEGAL AGREEMENT BETWEEN YOU AND WASON TECHNOLOGY, LLC, A NEW YORK LIMITED LIABILITY COMPANY (“LICENSOR”).
+
+YOU SHOULD CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS BEFORE CLICKING “I ACCEPT.” CLICKING “I ACCEPT” MEANS YOU ACCEPT THESE TERMS AND CONDITIONS AND UNDERSTAND THAT THEY WILL BE LEGALLY BINDING ON YOU PERSONALLY, IF YOU ARE INSTALLING THE SOFTWARE FOR PERSONAL USE, OR THE ORGANIZATION IF YOU ARE INSTALLING THE SOFTWARE AS PART OF YOUR WORK FOR AN ORGANIZATION (“LICENSEE”). 
+
+IF YOU DO NOT AGREE WITH THE TERMS OF THIS AGREEMENT, OR DO NOT HAVE THE AUTHORITY TO BIND THE LICENSEE, DO NOT CLICK “I ACCEPT.”
+
+Licensor and Licensee may be referred to collectively herein as the “Parties” and individually as a “Party.”  
+
+IN CONSIDERATION and exchange of the mutual covenants of the Parties and the mutual benefits to be received under this Agreement, the Parties agree as follows:
+
+
+1. DEFINITIONS. As used in this Agreement, the following terms shall have the following meanings, unless otherwise expressly stated. Certain other terms may be defined elsewhere in this Agreement.
+
+a. "Documentation" means Licensor’s standard functional specifications regarding the use of the Licensed Software generally supplied by Licensor to its end users, whether in printed or digital format, as well as complete or partial copies of the foregoing.
+b. "Licensed Software" means the proprietary software library known as Robot Raconteur® in machine-readable, object code form. 
+c. “Open Source Components” means all those components of the Licensed Software covered by “open source” software licenses.
+d. “Open Source Licenses” means all licenses for the Open Source Components, as they may be amended from time to time.
+e. “Library” means the Licensed Software and the Documentation, collectively.
+f. "Use" means to download, install, store, execute and operate the Library and/or any individual component thereof, for the Library’s intended purposes only.
+g. “Platform” means any software or platform with which Licensee Uses the Library (including, for the avoidance of doubt, unauthorized Use outside of the Library’s intended purposes).
+
+2. USE OF LICENSED SOFTWARE
+a. Licensee agrees to Use the Library subject to all of the terms and conditions of this Agreement, which Licensee hereby affirmatively accepts.
+b. Without limiting any other provisions of this Agreement, Licensee understands and accepts that Licensee’s use of the Library is subject to Licensee’s full compliance with the Open Source Licenses and any applicable Platform licenses. Licensee accepts sole responsibility for complying with Open Source Licenses and Platform licenses.
+c. Open Source Components included with the Licensed Software as of the date of this Agreement are listed in Schedule A hereto, which is attached and by this reference incorporated as a part of this Agreement.
+d. Licensee understands and agrees that future versions of the Licensed Software may add or remove certain Open Source Components. Licensee may at any time request, and upon such request Licensor shall provide, a current list of Open Source Components and links to applicable Open Source Licenses.
+e. Licensor has no obligation to provide support or maintenance for the Library under this Agreement.
+
+
+3. OWNERSHIP 
+a. It is hereby understood and agreed that Licensor is the exclusive owner of all worldwide rights, title and interest to the Library, and all copies thereof, regardless of the media or form in which such copies may exist. The Library is made available to Licensee through the within license only, not sale, and Licensee does not and shall never acquire any ownership rights in or to the Library.  
+b. Licensee shall not cause, nor permit either through its direct efforts or through any third party, the modification, disassembly, de-compilation, or reverse engineering of the Licensed Software, nor otherwise attempt to discover any source code or trade secret related to the Licensed Software. Without limiting other remedies available to Licensor, all of which are expressly reserved: any use of the Library not expressly authorized by this Agreement shall automatically terminate this license and Agreement.
+
+4. LICENSE 
+a. Conditioned upon Licensee’s compliance with all the terms and conditions of this Agreement, Licensor hereby grants Licensee a nonexclusive, non-transferable, revocable right to Use the Library, without the payment of a fee.
+b. Licensor reserves the right to impose fees for premium services and/or updated versions of the Library.
+c. Without limitation, Licensee shall not: 
+i. Copy, reproduce or make use of the Library except as expressly set forth in this Agreement; 
+ii. Modify, disassemble, de-compile or reverse engineer the Library;
+iii. Undertake custom implementations without Licensor’s express written consent;
+iv. Use encryption except incidentally over a VPN or SSH tunnel;
+v. Distribute the Library other than as it may be incorporated into software of Licensee’s that Licensee lawfully creates in accordance with the terms and conditions of this Agreement;
+vi. Publicly perform or display the Library other than in the course of Licensee’s authorized Use; or
+vii. Exercise any other right or privilege not expressly granted herein.
+d. Reference anywhere in this Agreement to the “Library” shall mean the entire Library and/or any portion thereof, as required by the context.
+e. Licensee acquires no rights whatever, under this Agreement, to use or display for any purpose any trademarks, brand names, logos or trade dress of Licensor.
+f. Projects using the Library must be identified on product packaging, webpages and documentation as, “Robot Raconteur® Compatible” using Licensor-supplied logos.
+g. All rights not expressly granted herein are reserved by Licensor. 
+h. This license terminates immediately upon termination of this Agreement.
+i. The terms of this license are conditions and not merely covenants.
+
+5. TERM AND TERMINATION
+a. This Agreement is effective until terminated as provided herein. 
+b. Licensee may terminate this Agreement at any time by destroying all copies of the Library, in all media, in Licensee’s possession or control. 
+c. This Agreement will terminate immediately if Licensee fails to comply with any term or condition of this Agreement. In such event, no notice shall be required by Licensor to effect such termination. Any breach by Licensee of any terms or conditions herein shall be deemed material.
+d. Upon termination of this Agreement, Licensee agrees immediately to destroy all copies of the Library in Licensee’s possession or control, in any form or media, along with related printed or written materials; or to return same to Licensor at Licensee's expense. 
+
+6. RESTRICTIONS ON TRANSFER 
+a. This Agreement shall run with the Library. 
+b. Licensee shall not sublicense, assign, or transfer this Agreement except as expressly provided in this Agreement. Any attempt by Licensee otherwise to sublicense, assign, or transfer any of Licensee’s rights, duties, or obligations hereunder is void. 
+c. This Agreement is binding upon the heirs, executors, administrators and other legal representatives of the parties and will be for the benefit of the parties’ successors and assigns.
+
+7. UPDATES AND SUGGESTIONS
+a. Licensor may, from time to time, make available to Licensee updates and enhancements to the Library. Use of all such updates and enhancements by Licensee shall be subject to the terms and conditions of this Agreement and to any additional terms and conditions Licensor may require.
+b. At no time shall any end-user suggestion for enhancements, updates, fixes or customizations be considered the confidential information of the Licensee or end-user. All end-user suggestions or enhancement requests from any end-user of the Library automatically become the sole property of Licensor, without attribution or compensation of any sort to the Licensee or end-user. Licensee agrees that all copyright, patent, trade secret and other intellectual property or ownership rights to such suggestions or enhancements, are hereby assigned to Licensor and shall remain the sole property of Licensor.
+
+8. COPYRIGHT AND PROPRIETARY INFORMATION
+a. Excepting the Open Source Components, Licensor hereby reserves all right, title, and interest in and to the Library, including but not limited to all worldwide copyright, patent, trademark, trade secret and other proprietary rights relating thereto. Licensor’s claim includes but is not limited to the compilation of the Licensed Software and of the Library. In no case shall Licensee or any end-user be considered a joint author or owner of the Library.
+b. Licensee acknowledges that the Library may contain Licensor’s trade secrets and that, in any event, the Library constitutes valuable confidential property of Licensor, the disclosure or misappropriation of which would cause irreparable harm to Licensor. 
+c. Licensee’s obligation to maintain the confidentiality of any information reasonably known by Licensee to constitute a trade secret of Licensor shall survive termination of this Agreement, and shall be perpetual.
+d. Except as otherwise provided in this Agreement, Licensee shall not cause or permit copying, reproduction or disclosure of the Library, or cause or permit the delivery, performance, display or distribution of any part thereof to any third person or entity, for any purpose whatsoever, without the prior written consent of Licensor. 
+
+9. LIMITED WARRANTY; LIMITED LIABILITY
+a. LICENSEE ACCEPTS THE LIBRARY “AS IS” AND “AS AVAILABLE.” LICENSOR DISCLAIMS ALL REPRESENTATIONS, WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD PARTY RIGHTS. LICENSOR DOES NOT ADOPT ANY REPRESENTATION OR WARRANTY OF ANY MANUFACTURER, SUPPLIER OR MERCHANT OF ANY INFORMATION, PRODUCT OR SERVICE, INCLUDING BUT NOT LIMITED TO THIRD-PARTY SOFTWARE. LICENSOR DOES NOT WARRANT THAT ERRORS IN THE LIBRARY WILL BE CORRECTED. 
+b. USE OF THE LIBRARY IS AT THE USER’S OWN RISK. UNLESS OTHERWISE EXPRESSLY SPECIFIED, LICENSOR, ITS PRINCIPALS, EMPLOYEES AND AGENTS SHALL NOT BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, PERSONAL INJURY, PRIVACY OR DATA BREACH, DAMAGES FOR LOST REVENUE, LOST OR DAMAGED DATA OR OTHER COMMERCIAL OR ECONOMIC LOSS, WHETHER BASED IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR ANY OTHER THEORY OF LIABILITY, ARISING OUT OF  USE OF THE LIBRARY OR ANY CONSEQUENCES FLOWING, DIRECTLY OR INDIRECTLY, THEREFROM. IN NO EVENT SHALL LICENSOR BE LIABLE FOR HARDWARE OR SOFTWARE PROBLEMS DUE TO INTERFACING OF THE LIBRARY WITH LICENSEE'S EXISTING HARDWARE OR SOFTWARE. LICENSOR SHALL NOT BE LIABLE FOR DAMAGES RESULTING FROM THE IMPROPER OR INCORRECT USAGE OR OPERATION OF THE LIBRARY BY LICENSEE, ITS EMPLOYEES, OR ANY THIRD PARTIES. LICENSOR SHALL NOT BE LIABLE FOR DAMAGES RESULTING FROM LICENSEE’S BREACH OF ANY OPEN SOURCE LICENSES OR PLATFORM LICENSES. THE FOREGOING LIMITATIONS SHALL APPLY EVEN IF LICENSOR HAS BEEN ADVISED OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGE OR LOSS. IN NO EVENT WILL THE AGGREGATE LIABILITY OF LICENSOR AND ITS REPRESENTATIVES FOR ANY DAMAGES OR CLAIMS ARISING OUT OF OR RELATING TO USE OF THE LIBRARY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, EXCEED THE TOTAL LICENSE FEE, IF ANY, LICENSEE HAS PAID TO LICENSOR UNDER THIS AGREEMENT. THIS SECTION WILL SURVIVE AND APPLY NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+c. LICENSEE ACKNOWLEDGES THAT IT HAS READ THE FOREGOING DISCLAIMERS OF WARRANTY AND LIMITATION OF LIABILITY AND UNDERSTANDS THAT LICENSEE ASSUMES THE ENTIRE RISK OF USE OF THE LIBRARY.
+d. SOME STATES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES AND/OR LIABILITIES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. THIS AGREEMENT GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE OTHER RIGHTS THAT VARY FROM STATE TO STATE. 
+
+10. REMEDIES Licensor's entire liability and Licensee's exclusive remedy for any claim arising under this Agreement shall be delivery of a replacement copy of the Library that is free of defects in materials or workmanship.
+
+11. COMPLIANCE WITH LAWS; EXPORT RESTRICTIONS Licensee agrees to use the Library only in accordance with all applicable laws, regulations and statutes, worldwide. This includes, without limitation, privacy and data security laws. Licensee warrants and represents that Licensee does not intend to, and will not, directly or indirectly, export or transmit the Library to any country in violation of United States export restrictions. 
+
+12. INDEMNITY Licensee agrees fully to defend and indemnify Licensor from any and all claims, liabilities, settlements, judgments, awards, costs and expenses (including reasonable attorney fees) related to Licensee’s use of the Library and/or Licensee’s violation of any of the terms or conditions of this Agreement. Without limitation, this indemnity of Licensor includes and extends to any and all claims, liabilities, settlements, judgments, awards, costs and expenses (including reasonable attorney fees) arising from Licensee’s breach of Open Source Licenses and/or Platform licenses, agreements, terms or conditions.
+
+13. ACCEPTANCE OF ELECTRONIC CONTRACT Licensee agrees that this Agreement has the same legal force and effect as a written contract with the written signature of an authorized representative and that it satisfies any laws that require a writing or signature, including any applicable Statute of Frauds. Licensee further agrees that it shall not challenge the validity, enforceability or admissibility of this Agreement on the grounds that it was electronically transmitted or authorized. A printed version of this Agreement shall be admissible in judicial or administrative proceedings based upon or relating to the Agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. Licensee acknowledges that it has had the opportunity to print this Agreement.   
+
+14. MISCELLANEOUS TERMS
+a. Nothing in this Agreement shall be construed to constitute or appoint either Party as the agent, representative or employee of the other Party for any purpose, or to grant either Party any rights or authority to assume or create any obligation or responsibility, whether express or implied, for or on behalf of or in the name of the other, or to bind the other in any way or manner.
+b. Licensee agrees to execute any and all documents reasonably necessary in order to effectuate the purposes and intent of this Agreement, including but not limited to documents affirming the authority of the individual who executed this Agreement to bind Licensee.
+c. This Agreement is the entire agreement between the Parties and supersedes all prior written or oral agreements between the Parties relating to the subject matter hereof. No amendment to this Agreement shall be binding or enforceable unless reduced to a writing executed by the Parties. If any portion of this Agreement is found to be void or unenforceable, the remaining portion shall be enforceable with the invalid portion removed, giving all reasonable construction to permit the essential purposes of the Agreement to be achieved. The Parties’ various rights and remedies hereunder shall be construed to be cumulative. 
+d. This Agreement shall be deemed to have been made in the State of New York, and it shall be governed by the substantive laws of the State of New York, USA without regard to any applicable conflict of laws provisions.  The Parties submit to jurisdiction in the state and Federal courts serving Orange County, New York and hereby waive any jurisdictional, venue or inconvenient forum defenses otherwise available. Provided, however, that if Licensor is sued or joined in an action in any other court or forum in respect of any matter which may give rise to a claim hereunder, Licensee consents to the jurisdiction of such court or forum over any such claim. 
+e. Nothing contained in this Agreement shall be construed to require the commission of any act contrary to law. Captions and headings used in this Agreement are for purposes of convenience only and shall not be deemed to limit, affect the scope, meaning or intent of this Agreement, nor shall they otherwise be given any legal effect. 
+f. All sections of this Agreement, which by their nature should survive termination, shall survive termination, including, but not limited to, confidentiality obligations, indemnification obligations, warranty disclaimers and limitations of liability. 
+
+
+LICENSEE HEREBY ACKNOWLEDGES THAT LICENSEE HAS READ THIS AGREEMENT, UNDERSTANDS IT AND AGREES TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+THE INDIVIDUAL EXECUTING THIS AGREEMENT PERSONALLY AFFIRMS, WARRANTS AND REPRESENTS THAT HE/SHE HAS AUTHORITY TO BIND LICENSEE TO THIS AGREEMENT, AND UNDERSTANDS THAT LICENSOR IS RELYING UPON SUCH AFFIRMATION, WARRANTY AND REPRESENTATION.
+
+
+
+
+SCHEDULE A
+
+
+
+BOOST
+
+http://www.boost.org/users/license.html 
+
+
+
+	Page 6
+
+

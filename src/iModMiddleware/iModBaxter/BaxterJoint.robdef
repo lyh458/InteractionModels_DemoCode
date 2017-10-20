@@ -1,0 +1,18 @@
+﻿#Service to provide sample interface to the iRobot Create
+service robot.service.joint
+
+option version 0.5
+
+object Baxter
+    property double[] joint_positions
+    property double[] joint_velocities
+    property double[] joint_torques
+    property double[] endeffector_positions
+    property double[] endeffector_orientations
+    property double[] endeffector_twists
+    property double[] endeffector_wrenches
+
+    function void setControlMode(uint8 mode)
+    function void setJointCommand(string limb, double[] command)
+    function void setPositionModeSpeed(double speed)
+end object

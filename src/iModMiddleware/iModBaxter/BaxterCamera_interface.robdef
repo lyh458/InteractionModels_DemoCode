@@ -1,0 +1,45 @@
+﻿#Service to provide sample interface to the iRobot Create
+service robot.service.camera
+
+option version 0.5
+
+struct BaxterImage
+    field int32 width
+    field int32 height
+    field int32 step
+    field uint8[] data
+end struct
+
+struct CameraIntrinsics
+    field double[] K
+    field double[] D
+end struct
+
+struct ImageHeader
+    field int32 width
+    field int32 height
+    field int32 step
+end struct
+
+object BaxterCamera
+
+    property uint8 camera_open
+
+    # camera control functions
+    function void openCamera()
+    function void closeCamera()
+    function void setExposure(int16 exposure)
+    function void setGain(int16 gain)
+    function void setWhiteBalance(int16 red, int16 green, int16 blue)
+    function void setFPS(double fps)
+    
+    # functions to acquire data on the image
+    function BaxterImage getCurrentImage()
+    function ImageHeader getImageHeader()
+    function CameraIntrinsics getCameraIntrinsics()
+    
+    # pipe to stream images through
+    pipe BaxterImage ImageStream
+    
+end object
+

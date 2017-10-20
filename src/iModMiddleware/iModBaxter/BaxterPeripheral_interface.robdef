@@ -1,0 +1,57 @@
+﻿#Service to provide sample interface to the iRobot Create
+service robot.service.peripheral
+
+option version 0.5
+
+struct NavigatorState
+    field uint8 ok_button
+    field uint8 cancel_button
+    field uint8 show_button
+    field uint8 scroll_wheel
+    field uint8 inner_led
+    field uint8 outer_led    
+end struct
+
+struct SonarPointCloud
+    field single[] sensors
+    field single[] distances
+    field single[] points
+end struct
+
+object BaxterPeripherals
+
+    function void openGripper(string gripper)
+    function void closeGripper(string gripper)
+    function void calibrateGripper(string gripper)
+    function void setGripperPosition(string gripper, double position)
+    function void setGripperVelocity(string gripper, double velocity)
+    function void setGripperHoldForce(string gripper, double force)
+    function void setGripperMoveForce(string gripper, double force)
+    function void setGripperDeadband(string gripper, double deadband)
+    function single getGripperPosition(string gripper)
+    function single getGripperForce(string gripper)
+
+    function single getRangerValue(string arm)
+
+    function single getAccelerometerValue(string arm)
+
+    function void panHead(double angle)
+    function single getHeadPanAngle()
+    function void nodHead()
+
+    function void enableSonar()
+    function void disableSonar()
+    property SonarPointCloud sonar_pointcloud
+
+    function void suppressBodyAvoidance(string limb, uint8 suppress)
+    function void suppressCollisionAvoidance(string limb, uint8 suppress)
+    function void suppressContactSafety(string limb, uint8 suppress)
+    function void suppressCuffInteraction(string limb, uint8 suppress)
+    function void suppressGravityCompensation(string limb, uint8 suppress)
+
+    property double[] gravity_compensation_torques
+
+    function NavigatorState getNavigatorState(string navigator)
+    function void setNavigatorLEDs(string navigator, uint8 inner_led, uint8 outer_led)
+
+end object

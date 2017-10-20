@@ -1,0 +1,4 @@
+*.cmake
+/Makefile
+moc_*
+*_automoc.cpp

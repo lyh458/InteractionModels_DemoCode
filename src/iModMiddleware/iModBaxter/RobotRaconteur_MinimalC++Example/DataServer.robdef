@@ -1,0 +1,8 @@
+﻿#Service to provide sample interface to the iRobot Create
+service service.data
+
+option version 0.5
+
+object Container
+    property double[] data
+end object

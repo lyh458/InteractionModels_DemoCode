@@ -1,0 +1,2969 @@
+#Ascii Scene 
+#Version 100 
+#Generator OpenSceneGraph 3.2.1 
+
+osg::Group {
+UniqueID 1 
+Name "Nao.fbx" 
+UpdateCallback TRUE {
+osgAnimation::BasicAnimationManager {
+UniqueID 2 
+Animations 2 {
+osgAnimation::Animation {
+UniqueID 3 
+Name "Default Take" 
+Channels 130 {
+Type Vec3LinearChannel {
+Name translate 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 -0.302667 0.00142116 0.0291369 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 0.335394 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 1.61581 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 0.335708 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 1.6894 1.26834e-07 2.45136e-08 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0167495 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0496256 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 -3.1368 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 0.999999 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.393168 -5.93377e-09 -1.47977e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 -2.60287e-06 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 -3.30973e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327395 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 0.393168 -5.93377e-09 -1.47977e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 1.57079 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 -0.043445 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327397 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1.19789 6.61239e-08 -2.12342e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57258 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0676637 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 0.101858 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.272701 0.00257298 -0.0026695 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.00177826 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.0349238 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.67259 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.73658 -0.770883 0.0761961 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57792 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0167282 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57476 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.393172 2.18848e-07 2.9613e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 3.14159 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 -2.6389e-06 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327393 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 0.393172 2.18848e-07 2.9613e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 1.57079 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 -7.44588e-06 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327393 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1.19624 -4.6799e-08 -1.13389e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.5689 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0677118 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.108303 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.807495 0.00797747 0.0161084 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.00189465 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.0349726 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.46257 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.71865 0.206968 0.0822694 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57792 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0167318 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57476 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0296364 0.00273026 -0.0672802 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0185848 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0140318 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 -1.45647 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.905844 0.0333554 -0.0100764 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1.34915 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.145614 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57592 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1.05051 7.72998e-08 -4.65661e-10 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.0079308 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 -0.408792 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.00195253 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 3.68383e-06 -0.00133493 -6.11612e-05 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -0.194517 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 1.74316 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -0.174048 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.651441 0.156562 -0.0158831 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.487407 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.521293 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 -1.61627 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.340625 0.000860932 0.0293387 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 -2.10601 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.0475896 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 -2.12319 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0619447 0.00498256 -0.0648731 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0159091 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0270892 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 -1.53693 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.907997 0.0596952 -0.017125 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1.29643 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.0362851 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57307 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1.05058 9.31323e-08 1.35042e-08 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.0191357 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 -0.421506 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.0163359 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 3.10922e-06 -2.65261e-06 0.00123212 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -1.58611 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0131322 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -1.74267 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.642039 -0.133612 0.0135114 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1.00673 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.681927 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1.64867 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.345025 0.0158383 0.0295572 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 2.25118 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.0451427 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 2.18566 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 -0.00749946 -0.451328 -0.380041 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 -0.52071 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57901 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 2.07479 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 0 0 0 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 0 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 -0 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 0 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 3.34427 3.34427 3.34427 
+}
+}
+}
+}
+osgAnimation::Animation {
+UniqueID 4 
+Name "PoseLib" 
+Channels 130 {
+Type Vec3LinearChannel {
+Name translate 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 -0.302667 0.00142116 0.0291369 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 0.335394 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 1.61581 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 0.335708 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName neckPitch 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 1.6894 1.26834e-07 2.45136e-08 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0167495 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0496256 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 -3.1368 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName neckYaw 
+KeyFrameContainer TRUE 1 {
+0.2 0.999999 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.393168 -5.93377e-09 -1.47977e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 -2.60287e-06 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 -3.30973e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327395 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_hand 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 0.393168 -5.93377e-09 -1.47977e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 1.57079 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 -0.043445 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327397 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_forearm_002 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1.19789 6.61239e-08 -2.12342e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57258 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0676637 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 0.101858 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.272701 0.00257298 -0.0026695 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.00177826 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.0349238 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.67259 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.73658 -0.770883 0.0761961 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57792 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0167282 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57476 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.393172 2.18848e-07 2.9613e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 3.14159 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 -2.6389e-06 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327393 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_hand 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 0.393172 2.18848e-07 2.9613e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 1.57079 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 -7.44588e-06 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 0.0327393 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_forearm_001 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1.19624 -4.6799e-08 -1.13389e-07 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.5689 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0677118 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 -0.108303 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_forearm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.807495 0.00797747 0.0161084 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.00189465 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 0.0349726 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 -1.46257 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_upperarm 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.71865 0.206968 0.0822694 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57792 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0167318 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1.57476 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_shoulder 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0296364 0.00273026 -0.0672802 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0185848 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0140318 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 -1.45647 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.905844 0.0333554 -0.0100764 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1.34915 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.145614 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57592 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1.05051 7.72998e-08 -4.65661e-10 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.0079308 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 -0.408792 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.00195253 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 3.68383e-06 -0.00133493 -6.11612e-05 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -0.194517 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 1.74316 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -0.174048 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.651441 0.156562 -0.0158831 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.487407 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.521293 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 -1.61627 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.340625 0.000860932 0.0293387 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 -2.10601 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.0475896 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 -2.12319 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName r_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0619447 0.00498256 -0.0648731 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0159091 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 0.0270892 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 -1.53693 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_hindfoot 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.907997 0.0596952 -0.017125 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1.29643 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 0.0362851 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57307 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_ankle 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1.05058 9.31323e-08 1.35042e-08 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.0191357 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 -0.421506 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 0.0163359 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_calf 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 3.10922e-06 -2.65261e-06 0.00123212 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -1.58611 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -0.0131322 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 -1.74267 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_thigh 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.642039 -0.133612 0.0135114 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1.00673 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 0.681927 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1.64867 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_hip 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.345025 0.0158383 0.0295572 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 2.25118 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 0.0451427 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 2.18566 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName l_pelvis 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 -0.00749946 -0.451328 -0.380041 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 -0.52071 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 -1.57901 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 2.07479 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName Torso 
+KeyFrameContainer TRUE 1 {
+0.2 1 1 1 
+}
+}
+Type Vec3LinearChannel {
+Name translate 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 0 0 0 
+}
+}
+Type FloatLinearChannel {
+Name rotateX 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 0 
+}
+}
+Type FloatLinearChannel {
+Name rotateY 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 -0 
+}
+}
+Type FloatLinearChannel {
+Name rotateZ 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 0 
+}
+}
+Type Vec3LinearChannel {
+Name scale 
+TargetName NaoArmature_proxy 
+KeyFrameContainer TRUE 1 {
+0.2 3.34427 3.34427 3.34427 
+}
+}
+}
+}
+}
+}
+}
+StateSet TRUE {
+osg::StateSet {
+UniqueID 5 
+DataVariance STATIC 
+ModeList 2 {
+GL_NORMALIZE ON 
+GL_RESCALE_NORMAL ON 
+}
+}
+}
+Children 1 {
+osgAnimation::Skeleton {
+UniqueID 6 
+UpdateCallback TRUE {
+osgAnimation::UpdateSkeleton {
+UniqueID 7 
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 8 
+Name "NaoArmature_proxy" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 9 
+Name "NaoArmature_proxy" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 10 
+Name "translate" 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 11 
+Name "rotateZ" 
+Axis 0 0 1 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 12 
+Name "rotateY" 
+Axis 0 1 0 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 13 
+Name "rotateX" 
+Axis 1 0 0 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 14 
+Name "scale" 
+Scale 3.34427 3.34427 3.34427 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 15 
+Name "Torso" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 16 
+Name "Torso" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 17 
+Name "translate" 
+Translate -0.00749946 -0.451328 -0.380041 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 18 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 2.0748 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 19 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -1.57901 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 20 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -0.520716 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 21 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 5 {
+osgAnimation::Bone {
+UniqueID 22 
+Name "neckYaw" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 23 
+Name "neckYaw" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 24 
+Name "translate" 
+Translate 1.6894 1.26834e-07 2.45136e-08 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 25 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -3.13681 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 26 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.0496352 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 27 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -0.0167477 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 28 
+Name "scale" 
+Scale 0.999999 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 29 
+Name "neckPitch" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 30 
+Name "neckPitch" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 31 
+Name "translate" 
+Translate -0.302667 0.00142116 0.0291369 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 32 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.335707 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 33 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 1.61581 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 34 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 0.335393 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 35 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+}
+}
+}
+osgAnimation::Bone {
+UniqueID 36 
+Name "r_shoulder" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 37 
+Name "r_shoulder" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 38 
+Name "translate" 
+Translate 1.73658 -0.770883 0.0761961 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 39 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 1.57476 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 40 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.0167283 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 41 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 1.57792 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 42 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 43 
+Name "r_upperarm" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 44 
+Name "r_upperarm" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 45 
+Name "translate" 
+Translate -0.272701 0.00257298 -0.0026695 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 46 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.67259 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 47 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.0349238 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 48 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -0.00177826 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 49 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 50 
+Name "r_forearm" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 51 
+Name "r_forearm" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 52 
+Name "translate" 
+Translate 1.19789 6.61239e-08 -2.12342e-07 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 53 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.101858 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 54 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.0676637 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 55 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -1.57258 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 56 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 2 {
+osgAnimation::Bone {
+UniqueID 57 
+Name "r_hand" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 58 
+Name "r_hand" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 59 
+Name "translate" 
+Translate 0.393168 -5.93377e-09 -1.47977e-07 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 60 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.0327395 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 61 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -3.30973e-07 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 62 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -2.60287e-06 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 63 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+}
+osgAnimation::Bone {
+UniqueID 64 
+Name "r_forearm_002" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 65 
+Name "r_forearm_002" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 66 
+Name "translate" 
+Translate 0.393168 -5.93377e-09 -1.47977e-07 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 67 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.0327397 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 68 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.043445 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 69 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 1.57079 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 70 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+osgAnimation::Bone {
+UniqueID 71 
+Name "l_shoulder" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 72 
+Name "l_shoulder" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 73 
+Name "translate" 
+Translate 1.71865 0.206968 0.0822694 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 74 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 1.57476 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 75 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.0167319 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 76 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 1.57792 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 77 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 78 
+Name "l_upperarm" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 79 
+Name "l_upperarm" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 80 
+Name "translate" 
+Translate 0.807495 0.00797747 0.0161084 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 81 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.46257 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 82 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.0349726 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 83 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 0.00189465 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 84 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 85 
+Name "l_forearm" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 86 
+Name "l_forearm" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 87 
+Name "translate" 
+Translate 1.19624 -4.6799e-08 -1.13389e-07 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 88 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -0.108303 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 89 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.0677118 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 90 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -1.5689 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 91 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 2 {
+osgAnimation::Bone {
+UniqueID 92 
+Name "l_hand" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 93 
+Name "l_hand" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 94 
+Name "translate" 
+Translate 0.393172 2.18848e-07 2.9613e-07 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 95 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.0327393 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 96 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -2.68286e-06 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 97 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -3.14159 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 98 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+}
+osgAnimation::Bone {
+UniqueID 99 
+Name "l_forearm_001" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 100 
+Name "l_forearm_001" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 101 
+Name "translate" 
+Translate 0.393172 2.18848e-07 2.9613e-07 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 102 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.0327393 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 103 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -7.44563e-06 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 104 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 1.57079 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 105 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+osgAnimation::Bone {
+UniqueID 106 
+Name "r_pelvis" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 107 
+Name "r_pelvis" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 108 
+Name "translate" 
+Translate 0.340625 0.000860932 0.0293387 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 109 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -2.12319 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 110 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.0475893 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 111 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -2.10601 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 112 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 113 
+Name "r_hip" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 114 
+Name "r_hip" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 115 
+Name "translate" 
+Translate 0.651441 0.156562 -0.0158831 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 116 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.61627 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 117 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.521293 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 118 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 0.487407 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 119 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 120 
+Name "r_thigh" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 121 
+Name "r_thigh" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 122 
+Name "translate" 
+Translate 3.68383e-06 -0.00133493 -6.11612e-05 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 123 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -0.174048 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 124 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 1.74316 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 125 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -0.194517 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 126 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 127 
+Name "r_calf" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 128 
+Name "r_calf" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 129 
+Name "translate" 
+Translate 1.05051 7.72998e-08 -4.65661e-10 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 130 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.00195253 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 131 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.408792 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 132 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 0.0079308 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 133 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 134 
+Name "r_ankle" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 135 
+Name "r_ankle" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 136 
+Name "translate" 
+Translate 0.905844 0.0333554 -0.0100764 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 137 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.57592 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 138 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.145614 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 139 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 1.34915 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 140 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 141 
+Name "r_hindfoot" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 142 
+Name "r_hindfoot" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 143 
+Name "translate" 
+Translate 0.0296364 0.00273026 -0.0672802 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 144 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.45647 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 145 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.0140318 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 146 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 0.0185848 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 147 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+osgAnimation::Bone {
+UniqueID 148 
+Name "l_pelvis" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 149 
+Name "l_pelvis" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 150 
+Name "translate" 
+Translate 0.345025 0.0158383 0.0295572 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 151 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 2.18566 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 152 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.0451427 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 153 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 2.25118 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 154 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 155 
+Name "l_hip" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 156 
+Name "l_hip" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 157 
+Name "translate" 
+Translate 0.642039 -0.133612 0.0135114 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 158 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 1.64867 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 159 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.681926 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 160 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 1.00673 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 161 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 162 
+Name "l_thigh" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 163 
+Name "l_thigh" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 164 
+Name "translate" 
+Translate 3.10922e-06 -2.65261e-06 0.00123212 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 165 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.74267 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 166 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.0131323 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 167 
+Name "rotateX" 
+Axis 1 0 0 
+Angle -1.58611 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 168 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 169 
+Name "l_calf" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 170 
+Name "l_calf" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 171 
+Name "translate" 
+Translate 1.05058 9.31323e-08 1.35042e-08 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 172 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle 0.0163359 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 173 
+Name "rotateY" 
+Axis 0 1 0 
+Angle -0.421506 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 174 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 0.0191357 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 175 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 176 
+Name "l_ankle" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 177 
+Name "l_ankle" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 178 
+Name "translate" 
+Translate 0.907997 0.0596952 -0.017125 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 179 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.57307 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 180 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.0362851 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 181 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 1.29643 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 182 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+Children 1 {
+osgAnimation::Bone {
+UniqueID 183 
+Name "l_hindfoot" 
+DataVariance DYNAMIC 
+UpdateCallback TRUE {
+osgAnimation::UpdateBone {
+UniqueID 184 
+Name "l_hindfoot" 
+StackedTransforms 5 {
+osgAnimation::StackedTranslateElement {
+UniqueID 185 
+Name "translate" 
+Translate 0.0619447 0.00498256 -0.0648731 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 186 
+Name "rotateZ" 
+Axis 0 0 1 
+Angle -1.53693 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 187 
+Name "rotateY" 
+Axis 0 1 0 
+Angle 0.0270892 
+}
+osgAnimation::StackedRotateAxisElement {
+UniqueID 188 
+Name "rotateX" 
+Axis 1 0 0 
+Angle 0.0159091 
+}
+osgAnimation::StackedScaleElement {
+UniqueID 189 
+Name "scale" 
+Scale 1 1 1 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
